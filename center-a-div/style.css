@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root{
+    --light-grey:#CBD5E1;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 50vh;
+    border: 2px solid none;
+    margin: 40vh auto;
+    border-radius: 5px;
+    background-color: var(--light-grey);
+    box-shadow: 5px 5px 10px var(--light-grey);
+}
+.item{
+    color: white;
+}
